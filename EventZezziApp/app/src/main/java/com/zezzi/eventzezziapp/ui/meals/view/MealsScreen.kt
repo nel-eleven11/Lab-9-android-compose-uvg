@@ -91,7 +91,7 @@ fun MealsScreen(
                                     .fillMaxSize()
                             )
                             Button(
-                                onClick = { navController.navigate("${NavigationState.Meals.route}/${meal.name}") },
+                                onClick = { navController.navigate("${NavigationState.MealData.route}/${meal.id}") },
                                 modifier = Modifier
                                     .padding(10.dp)
                                     .fillMaxWidth(),

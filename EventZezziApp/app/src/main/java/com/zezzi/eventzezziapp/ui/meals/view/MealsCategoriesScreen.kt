@@ -41,6 +41,7 @@ import com.zezzi.eventzezziapp.navigation.Navigation
 import com.zezzi.eventzezziapp.ui.theme.EventZezziAppTheme
 import kotlinx.coroutines.runBlocking
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.text.style.TextAlign
 import com.zezzi.eventzezziapp.navigation.NavigationState
 
